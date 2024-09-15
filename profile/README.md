@@ -1,4 +1,4 @@
-**<h2>FileFlux: Secure, Scalable, and Effortless File Storage and Management </h2>**
+**<h1>FileFlux: Secure, Scalable, and Effortless File Storage and Management </h1>**
 
 ## Architecture Diagram
 ![FileFlux_nobg](./images/FileFlux_nobg.png)
