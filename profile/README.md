@@ -1,7 +1,31 @@
 **<h2>FileFlux: Secure, Scalable, and Effortless File Storage and Management </h2>**
+
+## Architecture Diagram
 ![FileFlux_nobg](./images/FileFlux_nobg.png)
 
 FileFlux is a highly scalable and secure file storage and management platform hosted on AWS and orchestrated via Kubernetes (EKS). It allows users to register, create/delete buckets, and upload/download/manage files with high availability and efficient storage mechanisms like ZFS pools. The application is built to handle large-scale file operations and is optimized for performance, security, and fault tolerance.
+
+## Table of Contents
+- [Features](#features)
+- [Infrastructure](#infrastructure)
+  - [Network and Security](#network-and-security)
+  - [Computer and Storage](#compute-and-storage)
+  - [Monitoring and Logging](#monitoring-and-logging)
+  - [Database and Secrets Management](#database-and-secrets-management)
+  - [GitOps and Continuous Deployment](#gitops-and-continuous-deployment)
+- [Microservices Architecture](#microservices-architecture)
+  - [Manager Web Application](#manager-web-application)
+  - [Worker Web Application](#worker-web-application)
+  - [ZFS Exporter Web Application](#zfs-exporter-web-application)
+  - [Heartbeat Web Application](#heartbeat-web-application)
+- [Deployment and Automation](#deployment-and-automation)
+  - [Infrastructure Setup](#infrastructure-setup)
+  - [Continuous Delivery](#continuous-delivery)
+  - [Storage Management](#storage-management)
+  - [Monitoring & Logging](#monitoring--logging)
+  - [Security](#security)
+  - [ZFS Advantages](#zfs-advantages)
+- [Repositories](#repositories)
 
 ## Features
 - File Operations: Supports uploading, downloading, and managing files (GET/PUT/HEAD/DELETE operations)
